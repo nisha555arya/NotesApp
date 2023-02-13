@@ -1,5 +1,5 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Be+Vietnam+Pro:wght@400;500;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Public+Sans:wght@300;400;700&family=Raleway:ital,wght@1,100&family=Space+Grotesk:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Be+Vietnam+Pro:wght@400;500;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Public+Sans:wght@300;400;700&family=Raleway:ital,wght@1,100&family=Space+Grotesk:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -8,7 +8,7 @@
 }
 body{
     background: #88ABFF;
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 .wrapper{
     margin: 50px;
@@ -179,6 +179,9 @@ margin-bottom: 6px  ;
     padding: 0 15px;
     border-radius: 4px;
     border: 1px solid #999;
+}
+.content form input{
+  padding: 5px 0;
 }
 .content form textarea{
 height: 150px;
