@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="create-popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Add a new Note</p>
+                    <i class="fa fa-times createClose" aria-hidden="true"></i>
+                </header>
+                <form action="#">
+                    <div class="row">
+                        <label>Title</label>
+                        <input type="text" class="createTitle">
+                    </div>
+                    <div class="row">
+                        <label>Description</label>
+                        <textarea class="createDescription"></textarea>
+
+                    </div>
+                    <button class="createBtn">Add Note</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="edit-popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Edit note</p>
+                    <i class="fa fa-times editClose" aria-hidden="true"></i>
+                </header>
+                <form action="#">
+                    <div class="row">
+                        <label>Title</label>
+                        <input type="text" class="editTitle">
+                    </div>
+                    <div class="row">
+                        <label>Description</label>
+                        <textarea class="editDescription"></textarea>
+
+                    </div>
+                    <button class="editBtn">Update Note</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <li class="add-box">
+            <div class="icon"><i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <p>Add new card</p>
+        </li>
+        <!-- <li class="note">
+            <div class="deatils">
+                <p>This is a Title</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias dolorem perspiciatis, adipisci saepe impedit repellat? Molestias facere omnis vero.</span>
+            </div>
+            <div class="bottom-content">
+                <span>April 3, 2023</span>
+                <div class="settings">
+                    <i class="fa fa-ellipsis-h"></i>
+                    <ul class="menu">
+                    <li><i class="fa fa-pencil"></i> Edit</li>
+                    <li><i class="fa fa-trash"></i>Delete</li>
+                </ul>
+                </div>
+            </div>
+         </li> -->
+       
+     </div> 
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
